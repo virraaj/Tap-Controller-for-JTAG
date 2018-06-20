@@ -1,0 +1,56 @@
+#include "systemc.h"
+#include "tb_gps.h"
+#include <string>
+#include <fstream>
+ifstream fp_in;
+
+
+void tap :: dread(void)
+{
+while(1)
+{
+  cout<<"Reading starts for tdi"<<endl;
+for(int j=0;j<16;j++)
+{
+cout<<"Reading starts for tdi"<<endl;
+buffer1[j] = td_i.read();
+tdi_serial_o.write(buffer1[j]);
+cout<<"tdi reading ended"<<endl;
+};
+for(int k=0;k<16;k++)
+{
+  cout<<"Reading starts for tdo"<<endl;
+  buffer2[k] = tdo_serial_i.read();
+  td_o.write(buffer2[k]);
+  cout<<"Reading ends for tdo"<<endl;
+};
+};
+
+    //Read inputs
+    //Algorithm Code
+    //write outputs
+  }
+/******************************************************************************************/
+void tap :: fread(void) 
+
+{
+	fp_in.open("nmea.txt", ios::in | ios::binary);
+  	if (fp_in.is_open())
+  	{
+      		cout  << "file opened for reading" << endl;
+     		 fp_in.seekg(0, ios::beg ); // put file pointer to beginning of file
+		char cstr[100];
+		cout<< "reading from the file" <<endl;
+		fp_in >> cstr;										//reading from the file into the buffer1
+		//buffer_t1 = cstr;
+		cstr >> td_i;
+		td_i >> tdi_serial_o ;
+		cout<< cstr[0]<<"@" << sc_time_stamp() <<endl;
+		wait(1000,SC_MS);
+	}
+  	else
+	 {
+     		 cout << "Unable to open data.txt for reading";
+  			
+	 }
+}

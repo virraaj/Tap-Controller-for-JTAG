@@ -1,0 +1,223 @@
+tms_i=1 , 1
+tms_i=1 , 1
+tms_i=1 , 1
+tms_i=1, 1
+Reset; tms_i=11111, 1
+Run test idle
+Select IR
+Capture IR
+Shift_IR will begin
+shift_ir
+exit1_ir
+update ir
+Select DR Scan
+Capture DR
+Shift_DR will begin
+shift_dr
+exit1_dr
+update dr
+select dr scan
+Select IR
+Capture IR
+Shift_IR will begin
+shift_ir
+exit1_ir
+Pause IR
+Exit2_IR
+Update IR
+Select DR Scan
+Capture DR
+Shift_DR will begin
+shift_dr
+exit1_dr
+Pause DR
+Exit2_DR
+Update DR
+Select DR Scan
+Select IR Scan
+Capture IR
+Exit1 IR
+Update IR
+Select DR Scan
+Capture DR
+Exit1 DR
+Update DR
+Select DR Scan
+file opened for reading
+reading from the file
+$YOUAREREADINGTHISFROMFILE@740 ns
+td_i is$
+tdi_serial_o is $
+td_i isY
+tdi_serial_o is Y
+td_i isO
+tdi_serial_o is O
+td_i isU
+tdi_serial_o is U
+td_i isA
+tdi_serial_o is A
+td_i isR
+tdi_serial_o is R
+td_i isE
+tdi_serial_o is E
+td_i isR
+tdi_serial_o is R
+td_i isE
+tdi_serial_o is E
+td_i isA
+tdi_serial_o is A
+td_i isD
+tdi_serial_o is D
+td_i isI
+tdi_serial_o is I
+td_i isN
+tdi_serial_o is N
+td_i isG
+tdi_serial_o is G
+td_i isT
+tdi_serial_o is T
+td_i isH
+tdi_serial_o is H
+tms_i=1 , 1
+tms_i=1 , 1
+tms_i=1 , 1
+tms_i=1, 1
+Reset; tms_i=11111, 1
+Run test idle
+Select IR
+Capture IR
+Shift_IR will begin
+shift_ir
+exit1_ir
+update ir
+Select DR Scan
+Capture DR
+Shift_DR will begin
+shift_dr
+exit1_dr
+update dr
+select dr scan
+Select IR
+Capture IR
+Shift_IR will begin
+shift_ir
+exit1_ir
+Pause IR
+Exit2_IR
+Update IR
+Select DR Scan
+Capture DR
+Shift_DR will begin
+shift_dr
+exit1_dr
+Pause DR
+Exit2_DR
+Update DR
+Select DR Scan
+Select IR Scan
+Capture IR
+Exit1 IR
+Update IR
+Select DR Scan
+Capture DR
+Exit1 DR
+Update DR
+Select DR Scan
+file opened for reading
+reading from the file
+$YOUAREREADINGME@740 ns
+td_i is$
+tdi_serial_o is $
+td_i isY
+tdi_serial_o is Y
+td_i isO
+tdi_serial_o is O
+td_i isU
+tdi_serial_o is U
+td_i isA
+tdi_serial_o is A
+td_i isR
+tdi_serial_o is R
+td_i isE
+tdi_serial_o is E
+td_i isR
+tdi_serial_o is R
+td_i isE
+tdi_serial_o is E
+td_i isA
+tdi_serial_o is A
+td_i isD
+tdi_serial_o is D
+td_i isI
+tdi_serial_o is I
+td_i isN
+tdi_serial_o is N
+td_i isG
+tdi_serial_o is G
+td_i isM
+tdi_serial_o is M
+td_i isE
+tdi_serial_o is E
+tms_i=1 , 1
+tms_i=1 , 1
+tms_i=1 , 1
+tms_i=1, 1
+Reset; tms_i=11111, 1
+Select IR
+exit1_ir
+update ir
+Select DR Scan
+exit1_dr
+update dr
+select dr scan
+Select IR
+exit1_ir
+Exit2_IR
+Update IR
+Select DR Scan
+exit1_dr
+Exit2_DR
+Update DR
+Select DR Scan
+Select IR Scan
+Exit1 IR
+Update IR
+Select DR Scan
+Exit1 DR
+Update DR
+Select DR Scan
+file opened for reading
+reading from the file
+$DONEREADINGNOW!@1462 ns
+td_o is$
+tdi_serial_o is $
+td_o isD
+tdi_serial_o is D
+td_o isO
+tdi_serial_o is O
+td_o isN
+tdi_serial_o is N
+td_o isE
+tdi_serial_o is E
+td_o isR
+tdi_serial_o is R
+td_o isE
+tdi_serial_o is E
+td_o isA
+tdi_serial_o is A
+td_o isD
+tdi_serial_o is D
+td_o isI
+tdi_serial_o is I
+td_o isN
+tdi_serial_o is N
+td_o isG
+tdi_serial_o is G
+td_o isN
+tdi_serial_o is N
+td_o isO
+tdi_serial_o is O
+td_o isW
+tdi_serial_o is W
+td_o is!
+tdi_serial_o is !
